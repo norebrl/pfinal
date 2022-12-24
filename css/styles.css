@@ -1,0 +1,800 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 640px) {
+    .navSections {
+        width: 99%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction:row;
+        position: relative;
+    }
+    .navList {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: right;
+    }
+    nav ul li {
+        list-style-type: none;
+        text-align: right;
+    }
+    nav ul li a {
+        color: grey;
+        font-size: 2.5rem;
+        font-family: 'Inconsolata', monospace;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        display: block;
+    }
+    nav ul li a:hover {
+        color: white;
+    }
+    .logoContainer {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: left;
+    }
+    .bannerBlack {
+        background-color: black;
+        width: 100%;
+        display: flex;
+    }
+    .subtitleBlacky {
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    #paragraphExtraction {
+        color: grey;
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .subtitleGrey {
+        color: grey;
+        font-size: 2rem;
+        font-weight: 900;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .underlinedGrey {
+        color: grey;
+        font-size: 2rem;
+        text-decoration: underline;
+        font-weight: 900;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .paragraphPages {
+        color: black;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .containerIds {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center; 
+        object-fit: cover; 
+    }
+    .buttonIds:hover {
+        color: white;
+        filter: opacity(1);
+        transform: scale(1.1);
+    }
+    .buttonIds {
+        background-color: white;
+        border: none;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+    .containerVideos {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;  
+    }
+    .videosPages {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .idsFlex {
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    .box {
+        background-color:rgb(236, 236, 236);
+        width: 350px;
+        height: 150px;
+        margin: 10px;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .subtitleGenetics {
+        color: black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+    }
+    .dataGenetics {
+        color: grey;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+    }
+    .textOptions {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .containerProducts {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to bottom, #76d16b, #6bd787, #65dca1, #66e1b8, #6fe4cc, #4fe0db, #2adbea, #00d5f8, #00c3ff, #00acff, #548dff, #a95ffb);
+        justify-content: center;
+    }
+    .textProducts {
+        color: white;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: black;
+    }
+    .containerMap {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .formDates {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .textDates {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-color: black;
+    }
+    .textOptions {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .containerOptions {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .containerSelect {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .buttonIt {
+        color: black;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .buttonIt:hover {
+        color: green;
+        filter: opacity(1);
+    }
+    .subtitleInfo {
+        color: grey;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .bannerGrey {
+        background-color:rgb(236, 236, 236);
+        padding: 10px;
+        width: 100%;
+    }
+    .bannerFooter {
+        background-color: black;
+        width: 100%;
+        display: flex;
+    }
+    .logoFooter {
+        padding: 10px;
+        margin: 10px;
+        justify-content: left;
+        display: flex;
+    }
+    .netSocials {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .netSocial {
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        animation: float infinite 5s ease-in-out;
+    }
+    @keyframes float {
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(15px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+} 
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+    .navSections {
+        width: 99%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction:row;
+        position: relative;
+    }
+    .navList {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: right;
+    }
+    nav ul li {
+        list-style-type: none;
+        text-align: right;
+    }
+    nav ul li a {
+        color: grey;
+        font-size: 2.5rem;
+        font-family: 'Inconsolata', monospace;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        display: block;
+    }
+    nav ul li a:hover {
+        color: white;
+    }
+    .logoContainer {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: left;
+    }
+    .bannerBlack {
+        background-color: black;
+        width: 100%;
+        display: flex;
+    }
+    .subtitleBlacky {
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    #paragraphExtraction {
+        color: grey;
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .subtitleGrey {
+        color: grey;
+        font-size: 2rem;
+        font-weight: 900;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .underlinedGrey {
+        color: grey;
+        font-size: 2rem;
+        text-decoration: underline;
+        font-weight: 900;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .paragraphPages {
+        color: black;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .containerIds {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center; 
+        object-fit: cover; 
+    }
+    .buttonIds:hover {
+        color: white;
+        filter: opacity(1);
+        transform: scale(1.1);
+    }
+    .buttonIds {
+        background-color: white;
+        border: none;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+    .containerVideos {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .videosPages {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .idsFlex {
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    .box {
+        background-color:rgb(236, 236, 236);
+        width: 350px;
+        height: 150px;
+        margin: 10px;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .subtitleGenetics {
+        color: black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+    }
+    .dataGenetics {
+        color: grey;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+    }
+    .textOptions {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .containerProducts {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to bottom, #76d16b, #6bd787, #65dca1, #66e1b8, #6fe4cc, #4fe0db, #2adbea, #00d5f8, #00c3ff, #00acff, #548dff, #a95ffb);
+        justify-content: center;
+    }
+    .textProducts {
+        color: white;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: black;
+    }
+    .containerMap {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .formDates {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .textDates {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-color: black;
+    }
+    .textOptions {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .containerOptions {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .containerSelect {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .buttonIt {
+        color: black;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .buttonIt:hover {
+        color: green;
+        filter: opacity(1);
+    }
+    .subtitleInfo {
+        color: grey;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .bannerGrey {
+        background-color:rgb(236, 236, 236);
+        padding: 10px;
+        width: 100%;
+    }
+    .bannerFooter {
+        background-color: black;
+        width: 100%;
+        display: flex;
+    }
+    .logoFooter {
+        padding: 10px;
+        margin: 10px;
+        justify-content: left;
+        display: flex;
+    }
+    .netSocials {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .netSocial {
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        animation: float infinite 5s ease-in-out;
+    }
+    @keyframes float {
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(15px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+} 
+@media screen and (min-width: 1280px) {
+    .navSections {
+        width: 99%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction:row;
+        position: relative;
+    }
+    .navList {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: right;
+    }
+    nav ul li {
+        list-style-type: none;
+        text-align: right;
+    }
+    nav ul li a {
+        color: grey;
+        font-size: 2.5rem;
+        font-family: 'Inconsolata', monospace;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        display: block;
+    }
+    nav ul li a:hover {
+        color: white;
+    }
+    .logoContainer {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: left;
+    }
+    .bannerBlack {
+        background-color: black;
+        width: 100%;
+        display: flex;
+    }
+    .subtitleBlacky {
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    #paragraphExtraction {
+        color: grey;
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .subtitleGrey {
+        color: grey;
+        font-size: 2rem;
+        font-weight: 900;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .underlinedGrey {
+        color: grey;
+        font-size: 2rem;
+        text-decoration: underline;
+        font-weight: 900;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .paragraphPages {
+        color: black;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .containerIds {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center; 
+        object-fit: cover; 
+    }
+    .buttonIds:hover {
+        color: white;
+        filter: opacity(1);
+        transform: scale(1.1);
+    }
+    .buttonIds {
+        background-color: white;
+        border: none;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+    .containerVideos {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .videosPages {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+    .idsFlex {
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    .box {
+        background-color:rgb(236, 236, 236);
+        width: 350px;
+        height: 150px;
+        margin: 10px;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .subtitleGenetics {
+        color: black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+    }
+    .dataGenetics {
+        color: grey;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+    }
+    .textOptions {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .containerProducts {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to bottom, #76d16b, #6bd787, #65dca1, #66e1b8, #6fe4cc, #4fe0db, #2adbea, #00d5f8, #00c3ff, #00acff, #548dff, #a95ffb);
+        justify-content: center;
+    }
+    .textProducts {
+        color: white;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: black;
+    }
+    .containerMap {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .formDates {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .textDates {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-color: black;
+    }
+    .textOptions {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .containerOptions {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .containerSelect {
+        color: grey;
+        font-size: 1.5rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .buttonIt {
+        color: black;
+        font-size: 2rem;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+        padding: 10px;
+    }
+    .buttonIt:hover {
+        color: green;
+        filter: opacity(1);
+    }
+    .subtitleInfo {
+        color: grey;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Inconsolata', monospace;
+        margin: 10px;
+    }
+    .bannerGrey {
+        background-color:rgb(236, 236, 236);
+        padding: 10px;
+        width: 100%;
+    }
+    .bannerFooter {
+        background-color: black;
+        width: 100%;
+        display: flex;
+    }
+    .logoFooter {
+        padding: 10px;
+        margin: 10px;
+        justify-content: left;
+        display: flex;
+    }
+    .netSocials {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .netSocial {
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        animation: float infinite 5s ease-in-out;
+    }
+    @keyframes float {
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(15px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+} 
